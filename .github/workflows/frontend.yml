@@ -39,4 +39,4 @@ jobs:
       - name: Run Build command
         run: npm run build -- --prod
       - name: Run Unit tests
-        run: npm run test -- --configuration=ci
+        run: npm run test -- --watch=false --browsers=ChromeHeadless
